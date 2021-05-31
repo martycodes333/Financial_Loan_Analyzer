@@ -200,21 +200,7 @@ for item in loans:
         inexpensive_loans.append(item) # append the inexpensive loan(s) to the 'inexpensive_loans' list
         # print("loan_price: ", loan_price), a print statement to verify the correct loan was extracted from the 'loans' dict
     
-        
-         
-   
-
-
-
-
-    
-    
-
-      
-
-    
-    
-        
+              
 
 # @TODO: Print the `inexpensive_loans` list
         print(inexpensive_loans)
