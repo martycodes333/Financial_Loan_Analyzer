@@ -232,7 +232,7 @@ output_path = Path("inexpensive_loans.csv")
 # and each row of `loan.values()` from the `inexpensive_loans` list.
 with open(output_path, 'w') as csvfile: #use 'with open' to open a new CSV file
     csvwriter = csv.writer(csvfile) # create a csvwriter using the csv library
-    csvwriter.writerow(header) # use the csvwriter to writer the header variable as the first row
+    csvwriter.writerow(header) # use the csvwriter to write the 'header' variable as the first row
     for loan in inexpensive_loans: # use a for loop to iterate through each loan in 'inexpensive loans
         csvwriter.writerow(loan.values()) # use the csvwriter to write the loan.values() to a row in the CSV file 
 
